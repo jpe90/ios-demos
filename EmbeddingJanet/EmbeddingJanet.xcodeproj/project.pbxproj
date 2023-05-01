@@ -14,6 +14,8 @@
 		FCA8986C29FFB1CA00B859A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA8986B29FFB1CA00B859A3 /* Assets.xcassets */; };
 		FCA8986F29FFB1CA00B859A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA8986D29FFB1CA00B859A3 /* LaunchScreen.storyboard */; };
 		FCA8987229FFB1CA00B859A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA8987129FFB1CA00B859A3 /* main.m */; };
+		FCA89A8829FFB94D00B859A3 /* janet.c in Sources */ = {isa = PBXBuildFile; fileRef = FCA89A8629FFB94D00B859A3 /* janet.c */; };
+		FCA89A9529FFBCE000B859A3 /* server.janet in Resources */ = {isa = PBXBuildFile; fileRef = FCA89A9429FFBCE000B859A3 /* server.janet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		FCA8986E29FFB1CA00B859A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA8987029FFB1CA00B859A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCA8987129FFB1CA00B859A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA89A8629FFB94D00B859A3 /* janet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = janet.c; sourceTree = "<group>"; };
+		FCA89A8729FFB94D00B859A3 /* janet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = janet.h; sourceTree = "<group>"; };
+		FCA89A9429FFBCE000B859A3 /* server.janet */ = {isa = PBXFileReference; lastKnownFileType = text; path = server.janet; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +66,8 @@
 		FCA8985E29FFB1C900B859A3 /* EmbeddingJanet */ = {
 			isa = PBXGroup;
 			children = (
+				FCA89A8629FFB94D00B859A3 /* janet.c */,
+				FCA89A8729FFB94D00B859A3 /* janet.h */,
 				FCA8985F29FFB1C900B859A3 /* AppDelegate.h */,
 				FCA8986029FFB1C900B859A3 /* AppDelegate.m */,
 				FCA8986229FFB1C900B859A3 /* SceneDelegate.h */,
@@ -72,6 +79,7 @@
 				FCA8986D29FFB1CA00B859A3 /* LaunchScreen.storyboard */,
 				FCA8987029FFB1CA00B859A3 /* Info.plist */,
 				FCA8987129FFB1CA00B859A3 /* main.m */,
+				FCA89A9429FFBCE000B859A3 /* server.janet */,
 			);
 			path = EmbeddingJanet;
 			sourceTree = "<group>";
@@ -136,6 +144,7 @@
 				FCA8986F29FFB1CA00B859A3 /* LaunchScreen.storyboard in Resources */,
 				FCA8986C29FFB1CA00B859A3 /* Assets.xcassets in Resources */,
 				FCA8986A29FFB1C900B859A3 /* Main.storyboard in Resources */,
+				FCA89A9529FFBCE000B859A3 /* server.janet in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +159,7 @@
 				FCA8986129FFB1C900B859A3 /* AppDelegate.m in Sources */,
 				FCA8987229FFB1CA00B859A3 /* main.m in Sources */,
 				FCA8986429FFB1C900B859A3 /* SceneDelegate.m in Sources */,
+				FCA89A8829FFB94D00B859A3 /* janet.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
